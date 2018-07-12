@@ -6,7 +6,7 @@
 
 int a(int n)//求出5位数和6位数中的回文数函数
 {
-	int i,j,sum,temp,len;
+	int i,sum,temp,len;
 	int a,b,c;
 	for(i=10000;i<1000000;++i)
 	{

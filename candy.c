@@ -13,12 +13,32 @@ int main () {
 	int a[100], b[100];
 
 	//a[100] = scanf("%d", a[100]);
-
+//scanf返回的是值是输入的变量的个数
 	for (int i = 0; i < N; ++i) {
 		scanf("%d", &a[i]);
 	}
 	temp = a[0];
-
+/*while(1)
+ * {
+ * for(int i=0;i<n-1;i++)
+ *   if(a[i]!=a[i+1])
+ *        goto here1;
+ *   break;
+ * here1:
+ * for(int i=0;i<n-1;i++)
+ * {
+ *      a[i]/=2;
+ *      a[i]+=a[i+1]/2;
+ * }
+ * a[i]+=temp/2;
+ * for(int i=0;i<n;i++)
+ * {
+ *if(a[i]%2==1)
+ * a[i]++;
+ * }
+ *
+ * }
+ * */
 
 	for (int j = 0; j < N; ++j) {
 		b[j] = a[j];
