@@ -8,3 +8,6 @@ add_executable(aep ${SOURCE_FILES})
 
 set(SOURCE_FILES Palindrome.c)
 add_executable(Palindrome ${SOURCE_FILES})
+
+set(SOURCE_FILES maxsort.c)
+add_executable(maxsort ${SOURCE_FILES})
