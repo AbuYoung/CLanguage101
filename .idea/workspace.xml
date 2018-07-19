@@ -2,13 +2,8 @@
 <project version="4">
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true" buildAllGenerated="true">
     <generated>
-      <config projectName="cprc" targetName="hw" />
       <config projectName="cprc" targetName="aep" />
       <config projectName="cprc" targetName="Palindrome" />
-      <config projectName="cprc" targetName="getchar" />
-      <config projectName="cprc" targetName="cpphw" />
-      <config projectName="cprc" targetName="BigInteger" />
-      <config projectName="cprc" targetName="candy" />
     </generated>
   </component>
   <component name="CMakeSettings" AUTO_RELOAD="true">
@@ -18,11 +13,41 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="982cc757-f80e-4437-96f8-3663d70e1656" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/BigInteger.c" beforeDir="false" afterPath="$PROJECT_DIR$/BigInteger.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Palindrome.c" beforeDir="false" afterPath="$PROJECT_DIR$/Palindrome.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aep.c" beforeDir="false" afterPath="$PROJECT_DIR$/aep.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/candy.c" beforeDir="false" afterPath="$PROJECT_DIR$/candy.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/getchar.c" beforeDir="false" afterPath="$PROJECT_DIR$/getchar.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BigInteger.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/candy.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/BigInteger.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/BigInteger.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/BigInteger.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/BigInteger.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/BigInteger.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/BigInteger.dir/cmake_clean.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/BigInteger.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/BigInteger.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/BigInteger.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/BigInteger.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Palindrome.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Palindrome.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/aep.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/aep.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/candy.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/candy.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/candy.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/candy.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/candy.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/candy.dir/cmake_clean.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/candy.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/candy.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/candy.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/candy.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/getchar.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/getchar.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/getchar.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/getchar.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/getchar.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/getchar.dir/cmake_clean.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/getchar.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/getchar.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/getchar.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/getchar.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/hw.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/hw.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/hw.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/hw.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/hw.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/hw.dir/cmake_clean.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/hw.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/hw.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/hw.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/hw.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/cprc.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/cprc.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/getchar.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -38,19 +63,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="hw.c" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/hw.c">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="336">
-              <caret line="16" column="1" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="aep.c" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/aep.c">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
+            <state relative-caret-position="200">
               <caret line="10" selection-start-line="10" selection-end-line="10" />
               <folding>
                 <element signature="e#0#2#0" />
@@ -59,11 +75,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Palindrome.c" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Palindrome.c" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Palindrome.c">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
+            <state relative-caret-position="523">
               <caret line="48" column="4" selection-start-line="48" selection-start-column="4" selection-end-line="48" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CMakeLists.txt" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="100">
+              <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
             </state>
           </provider>
         </entry>
@@ -86,9 +111,9 @@
         <option value="$PROJECT_DIR$/getchar.c" />
         <option value="$PROJECT_DIR$/aep.c" />
         <option value="$PROJECT_DIR$/BigInteger.c" />
-        <option value="$PROJECT_DIR$/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/candy.c" />
         <option value="$PROJECT_DIR$/Palindrome.c" />
+        <option value="$PROJECT_DIR$/CMakeLists.txt" />
       </list>
     </option>
   </component>
@@ -102,10 +127,10 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="376" />
-    <option name="y" value="77" />
-    <option name="width" value="1951" />
-    <option name="height" value="1111" />
+    <option name="x" value="373" />
+    <option name="y" value="74" />
+    <option name="width" value="1954" />
+    <option name="height" value="1114" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -113,6 +138,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -124,7 +150,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -132,7 +157,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="C:/Java/bin" />
-    <property name="settings.editor.selected.configurable" value="CPPToolchains" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -146,23 +171,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.hw">
-    <configuration name="BigInteger" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="cprc" TARGET_NAME="BigInteger" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="cprc" RUN_TARGET_NAME="BigInteger" />
-    <configuration name="Build All" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="cprc" RUN_TARGET_NAME="candy" EXPLICIT_BUILD_TARGET_NAME="all" />
+  <component name="RunManager" selected="Application.aep">
+    <configuration name="Build All" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="cprc" RUN_TARGET_NAME="aep" EXPLICIT_BUILD_TARGET_NAME="all" />
     <configuration name="Palindrome" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="cprc" TARGET_NAME="Palindrome" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="cprc" RUN_TARGET_NAME="Palindrome" />
     <configuration name="aep" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="cprc" TARGET_NAME="aep" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="cprc" RUN_TARGET_NAME="aep" />
-    <configuration name="candy" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="cprc" TARGET_NAME="candy" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="cprc" RUN_TARGET_NAME="candy" />
-    <configuration name="cpphw" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="cprc" TARGET_NAME="cpphw" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="cprc" RUN_TARGET_NAME="cpphw" />
-    <configuration name="getchar" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="cprc" TARGET_NAME="getchar" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="cprc" RUN_TARGET_NAME="getchar" />
-    <configuration name="hw" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="cprc" TARGET_NAME="hw" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="cprc" RUN_TARGET_NAME="hw" />
     <list>
       <item itemvalue="Application.Build All" />
       <item itemvalue="Application.aep" />
-      <item itemvalue="Application.BigInteger" />
-      <item itemvalue="Application.candy" />
-      <item itemvalue="Application.cpphw" />
-      <item itemvalue="Application.getchar" />
-      <item itemvalue="Application.hw" />
       <item itemvalue="Application.Palindrome" />
     </list>
   </component>
@@ -215,6 +230,8 @@
       <workItem from="1530009771090" duration="2000" />
       <workItem from="1531057442662" duration="75000" />
       <workItem from="1531057532996" duration="467000" />
+      <workItem from="1532008506515" duration="831000" />
+      <workItem from="1532010962199" duration="667000" />
     </task>
     <task id="LOCAL-00001" summary="nothing works">
       <created>1525954706227</created>
@@ -234,7 +251,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26957000" />
+    <option name="totallyTimeSpent" value="28455000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -247,13 +264,14 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="33" width="1321" height="709" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4902507" visible="true" weight="0.124713086" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4902507" visible="true" weight="0.124713086" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32938644" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.40863788" />
-      <window_info anchor="bottom" id="CMake" order="11" weight="0.25870648" />
+      <window_info active="true" anchor="bottom" id="CMake" order="11" visible="true" weight="0.25747508" />
       <window_info anchor="right" id="LuaJ" order="8" weight="0.32975295" />
-      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" weight="0.3281493" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" weight="0.32669982" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32890365" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.33554816" />
       <window_info id="Structure" order="1" sideWeight="0.49442896" side_tool="true" weight="0.23254564" />
@@ -262,18 +280,18 @@
       <window_info anchor="bottom" id="Debug" order="3" weight="0.29595014" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Data View" order="7" weight="0.32975295" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.40863788" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
+      <window_info anchor="right" id="Maven Projects" order="4" />
       <window_info anchor="right" id="Database" order="5" />
       <window_info anchor="right" id="Palette&#9;" order="6" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="right" id="Maven Projects" order="4" />
+      <window_info anchor="right" id="Data View" order="7" weight="0.32975295" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -296,13 +314,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/BigInteger.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Palindrome.c">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="903">
@@ -607,21 +618,31 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/candy.c">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
+        <state relative-caret-position="-651">
           <caret line="14" column="35" selection-start-line="14" selection-start-column="35" selection-end-line="14" selection-end-column="35" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/getchar.c">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="924">
+        <state relative-caret-position="864">
           <caret line="44" column="1" selection-start-line="44" selection-start-column="1" selection-end-line="44" selection-end-column="1" />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/hw.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="11" column="1" lean-forward="true" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.cpp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/aep.c">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
+        <state relative-caret-position="200">
           <caret line="10" selection-start-line="10" selection-end-line="10" />
           <folding>
             <element signature="e#0#2#0" />
@@ -629,24 +650,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/hw.c">
+    <entry file="file://$PROJECT_DIR$/Palindrome.c">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="16" column="1" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
+        <state relative-caret-position="523">
+          <caret line="48" column="4" selection-start-line="48" selection-start-column="4" selection-end-line="48" selection-end-column="4" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="447">
-          <caret line="24" column="36" selection-start-line="24" selection-start-column="36" selection-end-line="24" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Palindrome.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="48" column="4" selection-start-line="48" selection-start-column="4" selection-end-line="48" selection-end-column="4" />
+        <state relative-caret-position="100">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
         </state>
       </provider>
     </entry>

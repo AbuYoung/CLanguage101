@@ -110,58 +110,6 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named cpphw
-
-# Build rule for target.
-cpphw: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 cpphw
-.PHONY : cpphw
-
-# fast build rule for target.
-cpphw/fast:
-	$(MAKE) -f CMakeFiles\cpphw.dir\build.make CMakeFiles/cpphw.dir/build
-.PHONY : cpphw/fast
-
-#=============================================================================
-# Target rules for targets named hw
-
-# Build rule for target.
-hw: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 hw
-.PHONY : hw
-
-# fast build rule for target.
-hw/fast:
-	$(MAKE) -f CMakeFiles\hw.dir\build.make CMakeFiles/hw.dir/build
-.PHONY : hw/fast
-
-#=============================================================================
-# Target rules for targets named getchar
-
-# Build rule for target.
-getchar: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 getchar
-.PHONY : getchar
-
-# fast build rule for target.
-getchar/fast:
-	$(MAKE) -f CMakeFiles\getchar.dir\build.make CMakeFiles/getchar.dir/build
-.PHONY : getchar/fast
-
-#=============================================================================
-# Target rules for targets named BigInteger
-
-# Build rule for target.
-BigInteger: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 BigInteger
-.PHONY : BigInteger
-
-# fast build rule for target.
-BigInteger/fast:
-	$(MAKE) -f CMakeFiles\BigInteger.dir\build.make CMakeFiles/BigInteger.dir/build
-.PHONY : BigInteger/fast
-
-#=============================================================================
 # Target rules for targets named aep
 
 # Build rule for target.
@@ -186,46 +134,6 @@ Palindrome: cmake_check_build_system
 Palindrome/fast:
 	$(MAKE) -f CMakeFiles\Palindrome.dir\build.make CMakeFiles/Palindrome.dir/build
 .PHONY : Palindrome/fast
-
-#=============================================================================
-# Target rules for targets named candy
-
-# Build rule for target.
-candy: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 candy
-.PHONY : candy
-
-# fast build rule for target.
-candy/fast:
-	$(MAKE) -f CMakeFiles\candy.dir\build.make CMakeFiles/candy.dir/build
-.PHONY : candy/fast
-
-BigInteger.obj: BigInteger.c.obj
-
-.PHONY : BigInteger.obj
-
-# target to build an object file
-BigInteger.c.obj:
-	$(MAKE) -f CMakeFiles\BigInteger.dir\build.make CMakeFiles/BigInteger.dir/BigInteger.c.obj
-.PHONY : BigInteger.c.obj
-
-BigInteger.i: BigInteger.c.i
-
-.PHONY : BigInteger.i
-
-# target to preprocess a source file
-BigInteger.c.i:
-	$(MAKE) -f CMakeFiles\BigInteger.dir\build.make CMakeFiles/BigInteger.dir/BigInteger.c.i
-.PHONY : BigInteger.c.i
-
-BigInteger.s: BigInteger.c.s
-
-.PHONY : BigInteger.s
-
-# target to generate assembly for a file
-BigInteger.c.s:
-	$(MAKE) -f CMakeFiles\BigInteger.dir\build.make CMakeFiles/BigInteger.dir/BigInteger.c.s
-.PHONY : BigInteger.c.s
 
 Palindrome.obj: Palindrome.c.obj
 
@@ -281,150 +189,22 @@ aep.c.s:
 	$(MAKE) -f CMakeFiles\aep.dir\build.make CMakeFiles/aep.dir/aep.c.s
 .PHONY : aep.c.s
 
-candy.obj: candy.c.obj
-
-.PHONY : candy.obj
-
-# target to build an object file
-candy.c.obj:
-	$(MAKE) -f CMakeFiles\candy.dir\build.make CMakeFiles/candy.dir/candy.c.obj
-.PHONY : candy.c.obj
-
-candy.i: candy.c.i
-
-.PHONY : candy.i
-
-# target to preprocess a source file
-candy.c.i:
-	$(MAKE) -f CMakeFiles\candy.dir\build.make CMakeFiles/candy.dir/candy.c.i
-.PHONY : candy.c.i
-
-candy.s: candy.c.s
-
-.PHONY : candy.s
-
-# target to generate assembly for a file
-candy.c.s:
-	$(MAKE) -f CMakeFiles\candy.dir\build.make CMakeFiles/candy.dir/candy.c.s
-.PHONY : candy.c.s
-
-getchar.obj: getchar.c.obj
-
-.PHONY : getchar.obj
-
-# target to build an object file
-getchar.c.obj:
-	$(MAKE) -f CMakeFiles\getchar.dir\build.make CMakeFiles/getchar.dir/getchar.c.obj
-.PHONY : getchar.c.obj
-
-getchar.i: getchar.c.i
-
-.PHONY : getchar.i
-
-# target to preprocess a source file
-getchar.c.i:
-	$(MAKE) -f CMakeFiles\getchar.dir\build.make CMakeFiles/getchar.dir/getchar.c.i
-.PHONY : getchar.c.i
-
-getchar.s: getchar.c.s
-
-.PHONY : getchar.s
-
-# target to generate assembly for a file
-getchar.c.s:
-	$(MAKE) -f CMakeFiles\getchar.dir\build.make CMakeFiles/getchar.dir/getchar.c.s
-.PHONY : getchar.c.s
-
-hw.obj: hw.c.obj
-
-.PHONY : hw.obj
-
-# target to build an object file
-hw.c.obj:
-	$(MAKE) -f CMakeFiles\hw.dir\build.make CMakeFiles/hw.dir/hw.c.obj
-.PHONY : hw.c.obj
-
-hw.i: hw.c.i
-
-.PHONY : hw.i
-
-# target to preprocess a source file
-hw.c.i:
-	$(MAKE) -f CMakeFiles\hw.dir\build.make CMakeFiles/hw.dir/hw.c.i
-.PHONY : hw.c.i
-
-hw.s: hw.c.s
-
-.PHONY : hw.s
-
-# target to generate assembly for a file
-hw.c.s:
-	$(MAKE) -f CMakeFiles\hw.dir\build.make CMakeFiles/hw.dir/hw.c.s
-.PHONY : hw.c.s
-
-main.obj: main.cpp.obj
-
-.PHONY : main.obj
-
-# target to build an object file
-main.cpp.obj:
-	$(MAKE) -f CMakeFiles\cpphw.dir\build.make CMakeFiles/cpphw.dir/main.cpp.obj
-.PHONY : main.cpp.obj
-
-main.i: main.cpp.i
-
-.PHONY : main.i
-
-# target to preprocess a source file
-main.cpp.i:
-	$(MAKE) -f CMakeFiles\cpphw.dir\build.make CMakeFiles/cpphw.dir/main.cpp.i
-.PHONY : main.cpp.i
-
-main.s: main.cpp.s
-
-.PHONY : main.s
-
-# target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) -f CMakeFiles\cpphw.dir\build.make CMakeFiles/cpphw.dir/main.cpp.s
-.PHONY : main.cpp.s
-
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
 	@echo ... all (the default if no target is provided)
 	@echo ... clean
 	@echo ... depend
-	@echo ... cpphw
-	@echo ... edit_cache
-	@echo ... hw
-	@echo ... getchar
-	@echo ... BigInteger
 	@echo ... aep
 	@echo ... Palindrome
-	@echo ... candy
+	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... BigInteger.obj
-	@echo ... BigInteger.i
-	@echo ... BigInteger.s
 	@echo ... Palindrome.obj
 	@echo ... Palindrome.i
 	@echo ... Palindrome.s
 	@echo ... aep.obj
 	@echo ... aep.i
 	@echo ... aep.s
-	@echo ... candy.obj
-	@echo ... candy.i
-	@echo ... candy.s
-	@echo ... getchar.obj
-	@echo ... getchar.i
-	@echo ... getchar.s
-	@echo ... hw.obj
-	@echo ... hw.i
-	@echo ... hw.s
-	@echo ... main.obj
-	@echo ... main.i
-	@echo ... main.s
 .PHONY : help
 
 

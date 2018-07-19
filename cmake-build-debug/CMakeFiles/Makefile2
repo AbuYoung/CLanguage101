@@ -59,161 +59,13 @@ CMAKE_SOURCE_DIR = E:\cprc
 CMAKE_BINARY_DIR = E:\cprc\cmake-build-debug
 
 #=============================================================================
-# Target rules for target CMakeFiles/cpphw.dir
-
-# All Build rule for target.
-CMakeFiles/cpphw.dir/all:
-	$(MAKE) -f CMakeFiles\cpphw.dir\build.make CMakeFiles/cpphw.dir/depend
-	$(MAKE) -f CMakeFiles\cpphw.dir\build.make CMakeFiles/cpphw.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\cprc\cmake-build-debug\CMakeFiles --progress-num=9,10 "Built target cpphw"
-.PHONY : CMakeFiles/cpphw.dir/all
-
-# Include target in all.
-all: CMakeFiles/cpphw.dir/all
-
-.PHONY : all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/cpphw.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\cprc\cmake-build-debug\CMakeFiles 2
-	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/cpphw.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\cprc\cmake-build-debug\CMakeFiles 0
-.PHONY : CMakeFiles/cpphw.dir/rule
-
-# Convenience name for target.
-cpphw: CMakeFiles/cpphw.dir/rule
-
-.PHONY : cpphw
-
-# clean rule for target.
-CMakeFiles/cpphw.dir/clean:
-	$(MAKE) -f CMakeFiles\cpphw.dir\build.make CMakeFiles/cpphw.dir/clean
-.PHONY : CMakeFiles/cpphw.dir/clean
-
-# clean rule for target.
-clean: CMakeFiles/cpphw.dir/clean
-
-.PHONY : clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/hw.dir
-
-# All Build rule for target.
-CMakeFiles/hw.dir/all:
-	$(MAKE) -f CMakeFiles\hw.dir\build.make CMakeFiles/hw.dir/depend
-	$(MAKE) -f CMakeFiles\hw.dir\build.make CMakeFiles/hw.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\cprc\cmake-build-debug\CMakeFiles --progress-num=13,14 "Built target hw"
-.PHONY : CMakeFiles/hw.dir/all
-
-# Include target in all.
-all: CMakeFiles/hw.dir/all
-
-.PHONY : all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/hw.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\cprc\cmake-build-debug\CMakeFiles 2
-	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/hw.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\cprc\cmake-build-debug\CMakeFiles 0
-.PHONY : CMakeFiles/hw.dir/rule
-
-# Convenience name for target.
-hw: CMakeFiles/hw.dir/rule
-
-.PHONY : hw
-
-# clean rule for target.
-CMakeFiles/hw.dir/clean:
-	$(MAKE) -f CMakeFiles\hw.dir\build.make CMakeFiles/hw.dir/clean
-.PHONY : CMakeFiles/hw.dir/clean
-
-# clean rule for target.
-clean: CMakeFiles/hw.dir/clean
-
-.PHONY : clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/getchar.dir
-
-# All Build rule for target.
-CMakeFiles/getchar.dir/all:
-	$(MAKE) -f CMakeFiles\getchar.dir\build.make CMakeFiles/getchar.dir/depend
-	$(MAKE) -f CMakeFiles\getchar.dir\build.make CMakeFiles/getchar.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\cprc\cmake-build-debug\CMakeFiles --progress-num=11,12 "Built target getchar"
-.PHONY : CMakeFiles/getchar.dir/all
-
-# Include target in all.
-all: CMakeFiles/getchar.dir/all
-
-.PHONY : all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/getchar.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\cprc\cmake-build-debug\CMakeFiles 2
-	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/getchar.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\cprc\cmake-build-debug\CMakeFiles 0
-.PHONY : CMakeFiles/getchar.dir/rule
-
-# Convenience name for target.
-getchar: CMakeFiles/getchar.dir/rule
-
-.PHONY : getchar
-
-# clean rule for target.
-CMakeFiles/getchar.dir/clean:
-	$(MAKE) -f CMakeFiles\getchar.dir\build.make CMakeFiles/getchar.dir/clean
-.PHONY : CMakeFiles/getchar.dir/clean
-
-# clean rule for target.
-clean: CMakeFiles/getchar.dir/clean
-
-.PHONY : clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/BigInteger.dir
-
-# All Build rule for target.
-CMakeFiles/BigInteger.dir/all:
-	$(MAKE) -f CMakeFiles\BigInteger.dir\build.make CMakeFiles/BigInteger.dir/depend
-	$(MAKE) -f CMakeFiles\BigInteger.dir\build.make CMakeFiles/BigInteger.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\cprc\cmake-build-debug\CMakeFiles --progress-num=1,2 "Built target BigInteger"
-.PHONY : CMakeFiles/BigInteger.dir/all
-
-# Include target in all.
-all: CMakeFiles/BigInteger.dir/all
-
-.PHONY : all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/BigInteger.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\cprc\cmake-build-debug\CMakeFiles 2
-	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/BigInteger.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\cprc\cmake-build-debug\CMakeFiles 0
-.PHONY : CMakeFiles/BigInteger.dir/rule
-
-# Convenience name for target.
-BigInteger: CMakeFiles/BigInteger.dir/rule
-
-.PHONY : BigInteger
-
-# clean rule for target.
-CMakeFiles/BigInteger.dir/clean:
-	$(MAKE) -f CMakeFiles\BigInteger.dir\build.make CMakeFiles/BigInteger.dir/clean
-.PHONY : CMakeFiles/BigInteger.dir/clean
-
-# clean rule for target.
-clean: CMakeFiles/BigInteger.dir/clean
-
-.PHONY : clean
-
-#=============================================================================
 # Target rules for target CMakeFiles/aep.dir
 
 # All Build rule for target.
 CMakeFiles/aep.dir/all:
 	$(MAKE) -f CMakeFiles\aep.dir\build.make CMakeFiles/aep.dir/depend
 	$(MAKE) -f CMakeFiles\aep.dir\build.make CMakeFiles/aep.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\cprc\cmake-build-debug\CMakeFiles --progress-num=5,6 "Built target aep"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\cprc\cmake-build-debug\CMakeFiles --progress-num=3,4 "Built target aep"
 .PHONY : CMakeFiles/aep.dir/all
 
 # Include target in all.
@@ -250,7 +102,7 @@ clean: CMakeFiles/aep.dir/clean
 CMakeFiles/Palindrome.dir/all:
 	$(MAKE) -f CMakeFiles\Palindrome.dir\build.make CMakeFiles/Palindrome.dir/depend
 	$(MAKE) -f CMakeFiles\Palindrome.dir\build.make CMakeFiles/Palindrome.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\cprc\cmake-build-debug\CMakeFiles --progress-num=3,4 "Built target Palindrome"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\cprc\cmake-build-debug\CMakeFiles --progress-num=1,2 "Built target Palindrome"
 .PHONY : CMakeFiles/Palindrome.dir/all
 
 # Include target in all.
@@ -277,43 +129,6 @@ CMakeFiles/Palindrome.dir/clean:
 
 # clean rule for target.
 clean: CMakeFiles/Palindrome.dir/clean
-
-.PHONY : clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/candy.dir
-
-# All Build rule for target.
-CMakeFiles/candy.dir/all:
-	$(MAKE) -f CMakeFiles\candy.dir\build.make CMakeFiles/candy.dir/depend
-	$(MAKE) -f CMakeFiles\candy.dir\build.make CMakeFiles/candy.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\cprc\cmake-build-debug\CMakeFiles --progress-num=7,8 "Built target candy"
-.PHONY : CMakeFiles/candy.dir/all
-
-# Include target in all.
-all: CMakeFiles/candy.dir/all
-
-.PHONY : all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/candy.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\cprc\cmake-build-debug\CMakeFiles 2
-	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/candy.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\cprc\cmake-build-debug\CMakeFiles 0
-.PHONY : CMakeFiles/candy.dir/rule
-
-# Convenience name for target.
-candy: CMakeFiles/candy.dir/rule
-
-.PHONY : candy
-
-# clean rule for target.
-CMakeFiles/candy.dir/clean:
-	$(MAKE) -f CMakeFiles\candy.dir\build.make CMakeFiles/candy.dir/clean
-.PHONY : CMakeFiles/candy.dir/clean
-
-# clean rule for target.
-clean: CMakeFiles/candy.dir/clean
 
 .PHONY : clean
 
