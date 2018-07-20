@@ -2,7 +2,7 @@
 <project version="4">
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true" buildAllGenerated="true">
     <generated>
-      <config projectName="cprc" targetName="maxsort" />
+      <config projectName="cprc" targetName="maxsort1" />
       <config projectName="cprc" targetName="aep" />
       <config projectName="cprc" targetName="Palindrome" />
     </generated>
@@ -14,8 +14,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="982cc757-f80e-4437-96f8-3663d70e1656" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/a.exe" beforeDir="false" afterPath="$PROJECT_DIR$/a.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/maxsort.c" beforeDir="false" afterPath="$PROJECT_DIR$/maxsort.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/maxsort1.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/cprc.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/cprc.cbp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -34,8 +41,8 @@
       <file leaf-file-name="CMakeLists.txt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="12" column="38" selection-start-line="12" selection-start-column="38" selection-end-line="12" selection-end-column="38" />
+            <state relative-caret-position="250">
+              <caret line="10" selection-start-line="10" selection-end-line="10" />
             </state>
           </provider>
         </entry>
@@ -43,7 +50,7 @@
       <file leaf-file-name="aep.c" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/aep.c">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
+            <state relative-caret-position="250">
               <caret line="10" selection-start-line="10" selection-end-line="10" />
               <folding>
                 <element signature="e#0#2#0" />
@@ -52,11 +59,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="maxsort.c" pinned="false" current-in-tab="true">
+      <file leaf-file-name="maxsort.c" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/maxsort.c">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="424">
-              <caret line="21" column="1" lean-forward="true" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
+            <state relative-caret-position="399">
+              <caret line="21" column="1" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="maxsort1.c" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/maxsort1.c">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="280">
+              <caret line="34" column="26" selection-start-line="34" selection-start-column="26" selection-end-line="34" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -81,8 +97,9 @@
         <option value="$PROJECT_DIR$/BigInteger.c" />
         <option value="$PROJECT_DIR$/candy.c" />
         <option value="$PROJECT_DIR$/Palindrome.c" />
-        <option value="$PROJECT_DIR$/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/maxsort.c" />
+        <option value="$PROJECT_DIR$/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/maxsort1.c" />
       </list>
     </option>
   </component>
@@ -96,10 +113,10 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="373" />
-    <option name="y" value="74" />
-    <option name="width" value="1954" />
-    <option name="height" value="1114" />
+    <option name="x" value="371" />
+    <option name="y" value="73" />
+    <option name="width" value="1955" />
+    <option name="height" value="1115" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -125,8 +142,13 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="C:/Java/bin" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="File.Encoding" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\cprc" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -140,15 +162,15 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.maxsort">
-    <configuration name="Build All" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="cprc" RUN_TARGET_NAME="maxsort" EXPLICIT_BUILD_TARGET_NAME="all" />
+  <component name="RunManager" selected="Application.maxsort1">
+    <configuration name="Build All" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="cprc" RUN_TARGET_NAME="maxsort1" EXPLICIT_BUILD_TARGET_NAME="all" />
     <configuration name="Palindrome" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="cprc" TARGET_NAME="Palindrome" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="cprc" RUN_TARGET_NAME="Palindrome" />
-    <configuration name="aep" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="cprc" TARGET_NAME="aep" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="cprc" RUN_TARGET_NAME="maxsort" />
-    <configuration name="maxsort" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="cprc" TARGET_NAME="maxsort" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="cprc" RUN_TARGET_NAME="maxsort" />
+    <configuration name="aep" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="cprc" TARGET_NAME="aep" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="cprc" RUN_TARGET_NAME="maxsort1" />
+    <configuration name="maxsort1" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="cprc" TARGET_NAME="maxsort1" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="cprc" RUN_TARGET_NAME="maxsort1" />
     <list>
       <item itemvalue="Application.Build All" />
       <item itemvalue="Application.aep" />
-      <item itemvalue="Application.maxsort" />
+      <item itemvalue="Application.maxsort1" />
       <item itemvalue="Application.Palindrome" />
     </list>
   </component>
@@ -202,7 +224,8 @@
       <workItem from="1531057442662" duration="75000" />
       <workItem from="1531057532996" duration="467000" />
       <workItem from="1532008506515" duration="831000" />
-      <workItem from="1532010962199" duration="4663000" />
+      <workItem from="1532010962199" duration="4742000" />
+      <workItem from="1532016237341" duration="3786000" />
     </task>
     <task id="LOCAL-00001" summary="nothing works">
       <created>1525954706227</created>
@@ -239,11 +262,18 @@
       <option name="project" value="LOCAL" />
       <updated>1532011990958</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="add maxsort.c">
+      <created>1532016173178</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1532016173179</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32451000" />
+    <option name="totallyTimeSpent" value="36316000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -258,32 +288,32 @@
     <frame x="-7" y="33" width="1321" height="709" extended-state="6" />
     <editor active="true" />
     <layout>
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4902507" visible="true" weight="0.16679418" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32938644" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.49335548" />
       <window_info anchor="bottom" id="CMake" order="11" weight="0.41196012" />
+      <window_info anchor="right" id="LuaJ" order="8" weight="0.32975295" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50038254" side_tool="true" weight="0.42192692" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.32890365" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.27906978" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.27906978" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4902507" visible="true" weight="0.124713086" />
-      <window_info anchor="right" id="LuaJ" order="8" weight="0.32975295" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32890365" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.2807309" />
       <window_info id="Structure" order="1" sideWeight="0.49442896" side_tool="true" weight="0.23254564" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.27906978" />
       <window_info id="Favorites" order="4" sideWeight="0.5097493" side_tool="true" weight="0.1283566" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49961746" weight="0.42192692" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Data View" order="7" weight="0.32975295" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="Designer" order="2" />
-      <window_info id="UI Designer" order="3" />
-      <window_info anchor="right" id="Maven Projects" order="4" />
-      <window_info anchor="right" id="Database" order="5" />
-      <window_info anchor="right" id="Palette&#9;" order="6" />
       <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="right" id="Database" order="5" />
+      <window_info id="UI Designer" order="3" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="right" id="Data View" order="7" weight="0.32975295" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32890365" />
+      <window_info anchor="right" id="Maven Projects" order="4" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -295,7 +325,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="nothing works" />
     <MESSAGE value="nothing works again" />
-    <option name="LAST_COMMIT_MESSAGE" value="nothing works again" />
+    <MESSAGE value="add maxsort.c" />
+    <option name="LAST_COMMIT_MESSAGE" value="add maxsort.c" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -306,13 +337,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/getchar.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="924">
-          <caret line="44" column="1" selection-start-line="44" selection-start-column="1" selection-end-line="44" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="504">
@@ -320,20 +344,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/candy.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="15" column="2" selection-start-line="15" selection-start-column="2" selection-end-line="15" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hw.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="16" column="1" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/candy.c" />
+    <entry file="file://$PROJECT_DIR$/hw.c" />
     <entry file="file://$PROJECT_DIR$/aep.c">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
@@ -344,13 +356,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/BigInteger.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/BigInteger.c" />
     <entry file="file://$PROJECT_DIR$/Palindrome.c">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="903">
@@ -358,13 +364,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/getchar.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="924">
-          <caret line="44" column="1" selection-start-line="44" selection-start-column="1" selection-end-line="44" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/getchar.c" />
     <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="504">
@@ -372,20 +372,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/candy.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="15" column="2" selection-start-line="15" selection-start-column="2" selection-end-line="15" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hw.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="16" column="1" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/candy.c" />
+    <entry file="file://$PROJECT_DIR$/hw.c" />
     <entry file="file://$PROJECT_DIR$/aep.c">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
@@ -396,13 +384,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/BigInteger.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/BigInteger.c" />
     <entry file="file://$PROJECT_DIR$/Palindrome.c">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="903">
@@ -410,13 +392,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/getchar.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="924">
-          <caret line="44" column="1" selection-start-line="44" selection-start-column="1" selection-end-line="44" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/getchar.c" />
     <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="504">
@@ -424,20 +400,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/candy.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="15" column="2" selection-start-line="15" selection-start-column="2" selection-end-line="15" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hw.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="16" column="1" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/candy.c" />
+    <entry file="file://$PROJECT_DIR$/hw.c" />
     <entry file="file://$PROJECT_DIR$/aep.c">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
@@ -448,13 +412,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/BigInteger.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/BigInteger.c" />
     <entry file="file://$PROJECT_DIR$/Palindrome.c">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="903">
@@ -462,13 +420,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/getchar.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="924">
-          <caret line="44" column="1" selection-start-line="44" selection-start-column="1" selection-end-line="44" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/getchar.c" />
     <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="504">
@@ -476,27 +428,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/candy.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1197">
-          <caret line="57" lean-forward="true" selection-start-line="57" selection-end-line="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hw.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="16" column="1" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/getchar.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="924">
-          <caret line="44" column="1" selection-start-line="44" selection-start-column="1" selection-end-line="44" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/candy.c" />
+    <entry file="file://$PROJECT_DIR$/hw.c" />
+    <entry file="file://$PROJECT_DIR$/getchar.c" />
     <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
@@ -514,13 +448,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/hw.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="16" column="1" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/hw.c" />
     <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="252">
@@ -529,20 +457,8 @@
       </provider>
     </entry>
     <entry file="file://C:/MinGW/include/stdio.h" />
-    <entry file="file://$PROJECT_DIR$/getchar.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="924">
-          <caret line="44" column="1" lean-forward="true" selection-start-line="44" selection-start-column="1" selection-end-line="44" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hw.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="16" column="1" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/getchar.c" />
+    <entry file="file://$PROJECT_DIR$/hw.c" />
     <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="252">
@@ -551,34 +467,10 @@
       </provider>
     </entry>
     <entry file="file://C:/MinGW/include/stdio.h" />
-    <entry file="file://$PROJECT_DIR$/getchar.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="630">
-          <caret line="30" selection-start-line="30" selection-end-line="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hw.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="16" column="1" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hw.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="16" column="1" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hw.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="16" column="1" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/getchar.c" />
+    <entry file="file://$PROJECT_DIR$/hw.c" />
+    <entry file="file://$PROJECT_DIR$/hw.c" />
+    <entry file="file://$PROJECT_DIR$/hw.c" />
     <entry file="file://$PROJECT_DIR$/.idea/misc.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="78">
@@ -594,37 +486,11 @@
       </provider>
     </entry>
     <entry file="file://C:/MinGW/include/stdio.h" />
-    <entry file="file://$PROJECT_DIR$/BigInteger.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/candy.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-651">
-          <caret line="14" column="35" selection-start-line="14" selection-start-column="35" selection-end-line="14" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/getchar.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="864">
-          <caret line="44" column="1" selection-start-line="44" selection-start-column="1" selection-end-line="44" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hw.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="11" column="1" lean-forward="true" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main.cpp">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/BigInteger.c" />
+    <entry file="file://$PROJECT_DIR$/candy.c" />
+    <entry file="file://$PROJECT_DIR$/getchar.c" />
+    <entry file="file://$PROJECT_DIR$/hw.c" />
+    <entry file="file://$PROJECT_DIR$/main.cpp" />
     <entry file="file://$PROJECT_DIR$/Palindrome.c">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="523">
@@ -632,16 +498,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="12" column="38" selection-start-line="12" selection-start-column="38" selection-end-line="12" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/aep.c">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
+        <state relative-caret-position="250">
           <caret line="10" selection-start-line="10" selection-end-line="10" />
           <folding>
             <element signature="e#0#2#0" />
@@ -651,8 +510,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/maxsort.c">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="424">
-          <caret line="21" column="1" lean-forward="true" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
+        <state relative-caret-position="399">
+          <caret line="21" column="1" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/maxsort1.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="34" column="26" selection-start-line="34" selection-start-column="26" selection-end-line="34" selection-end-column="26" />
         </state>
       </provider>
     </entry>

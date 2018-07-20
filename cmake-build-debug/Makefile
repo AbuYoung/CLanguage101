@@ -55,17 +55,6 @@ CMAKE_BINARY_DIR = E:\cprc\cmake-build-debug
 #=============================================================================
 # Targets provided globally by CMake.
 
-# Special rule for the target rebuild_cache
-rebuild_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	E:\JetBrains\CLion\bin\cmake\bin\cmake.exe -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
-.PHONY : rebuild_cache
-
-# Special rule for the target rebuild_cache
-rebuild_cache/fast: rebuild_cache
-
-.PHONY : rebuild_cache/fast
-
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
@@ -76,6 +65,17 @@ edit_cache:
 edit_cache/fast: edit_cache
 
 .PHONY : edit_cache/fast
+
+# Special rule for the target rebuild_cache
+rebuild_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
+	E:\JetBrains\CLion\bin\cmake\bin\cmake.exe -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+.PHONY : rebuild_cache
+
+# Special rule for the target rebuild_cache
+rebuild_cache/fast: rebuild_cache
+
+.PHONY : rebuild_cache/fast
 
 # The main all target
 all: cmake_check_build_system
@@ -136,17 +136,17 @@ Palindrome/fast:
 .PHONY : Palindrome/fast
 
 #=============================================================================
-# Target rules for targets named maxsort
+# Target rules for targets named maxsort1
 
 # Build rule for target.
-maxsort: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 maxsort
-.PHONY : maxsort
+maxsort1: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 maxsort1
+.PHONY : maxsort1
 
 # fast build rule for target.
-maxsort/fast:
-	$(MAKE) -f CMakeFiles\maxsort.dir\build.make CMakeFiles/maxsort.dir/build
-.PHONY : maxsort/fast
+maxsort1/fast:
+	$(MAKE) -f CMakeFiles\maxsort1.dir\build.make CMakeFiles/maxsort1.dir/build
+.PHONY : maxsort1/fast
 
 Palindrome.obj: Palindrome.c.obj
 
@@ -202,32 +202,32 @@ aep.c.s:
 	$(MAKE) -f CMakeFiles\aep.dir\build.make CMakeFiles/aep.dir/aep.c.s
 .PHONY : aep.c.s
 
-maxsort.obj: maxsort.c.obj
+maxsort1.obj: maxsort1.c.obj
 
-.PHONY : maxsort.obj
+.PHONY : maxsort1.obj
 
 # target to build an object file
-maxsort.c.obj:
-	$(MAKE) -f CMakeFiles\maxsort.dir\build.make CMakeFiles/maxsort.dir/maxsort.c.obj
-.PHONY : maxsort.c.obj
+maxsort1.c.obj:
+	$(MAKE) -f CMakeFiles\maxsort1.dir\build.make CMakeFiles/maxsort1.dir/maxsort1.c.obj
+.PHONY : maxsort1.c.obj
 
-maxsort.i: maxsort.c.i
+maxsort1.i: maxsort1.c.i
 
-.PHONY : maxsort.i
+.PHONY : maxsort1.i
 
 # target to preprocess a source file
-maxsort.c.i:
-	$(MAKE) -f CMakeFiles\maxsort.dir\build.make CMakeFiles/maxsort.dir/maxsort.c.i
-.PHONY : maxsort.c.i
+maxsort1.c.i:
+	$(MAKE) -f CMakeFiles\maxsort1.dir\build.make CMakeFiles/maxsort1.dir/maxsort1.c.i
+.PHONY : maxsort1.c.i
 
-maxsort.s: maxsort.c.s
+maxsort1.s: maxsort1.c.s
 
-.PHONY : maxsort.s
+.PHONY : maxsort1.s
 
 # target to generate assembly for a file
-maxsort.c.s:
-	$(MAKE) -f CMakeFiles\maxsort.dir\build.make CMakeFiles/maxsort.dir/maxsort.c.s
-.PHONY : maxsort.c.s
+maxsort1.c.s:
+	$(MAKE) -f CMakeFiles\maxsort1.dir\build.make CMakeFiles/maxsort1.dir/maxsort1.c.s
+.PHONY : maxsort1.c.s
 
 # Help Target
 help:
@@ -237,18 +237,18 @@ help:
 	@echo ... depend
 	@echo ... aep
 	@echo ... Palindrome
-	@echo ... rebuild_cache
-	@echo ... maxsort
+	@echo ... maxsort1
 	@echo ... edit_cache
+	@echo ... rebuild_cache
 	@echo ... Palindrome.obj
 	@echo ... Palindrome.i
 	@echo ... Palindrome.s
 	@echo ... aep.obj
 	@echo ... aep.i
 	@echo ... aep.s
-	@echo ... maxsort.obj
-	@echo ... maxsort.i
-	@echo ... maxsort.s
+	@echo ... maxsort1.obj
+	@echo ... maxsort1.i
+	@echo ... maxsort1.s
 .PHONY : help
 
 

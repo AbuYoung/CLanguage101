@@ -133,39 +133,39 @@ clean: CMakeFiles/Palindrome.dir/clean
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/maxsort.dir
+# Target rules for target CMakeFiles/maxsort1.dir
 
 # All Build rule for target.
-CMakeFiles/maxsort.dir/all:
-	$(MAKE) -f CMakeFiles\maxsort.dir\build.make CMakeFiles/maxsort.dir/depend
-	$(MAKE) -f CMakeFiles\maxsort.dir\build.make CMakeFiles/maxsort.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\cprc\cmake-build-debug\CMakeFiles --progress-num=5,6 "Built target maxsort"
-.PHONY : CMakeFiles/maxsort.dir/all
+CMakeFiles/maxsort1.dir/all:
+	$(MAKE) -f CMakeFiles\maxsort1.dir\build.make CMakeFiles/maxsort1.dir/depend
+	$(MAKE) -f CMakeFiles\maxsort1.dir\build.make CMakeFiles/maxsort1.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\cprc\cmake-build-debug\CMakeFiles --progress-num=5,6 "Built target maxsort1"
+.PHONY : CMakeFiles/maxsort1.dir/all
 
 # Include target in all.
-all: CMakeFiles/maxsort.dir/all
+all: CMakeFiles/maxsort1.dir/all
 
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/maxsort.dir/rule: cmake_check_build_system
+CMakeFiles/maxsort1.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start E:\cprc\cmake-build-debug\CMakeFiles 2
-	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/maxsort.dir/all
+	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/maxsort1.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start E:\cprc\cmake-build-debug\CMakeFiles 0
-.PHONY : CMakeFiles/maxsort.dir/rule
+.PHONY : CMakeFiles/maxsort1.dir/rule
 
 # Convenience name for target.
-maxsort: CMakeFiles/maxsort.dir/rule
+maxsort1: CMakeFiles/maxsort1.dir/rule
 
-.PHONY : maxsort
-
-# clean rule for target.
-CMakeFiles/maxsort.dir/clean:
-	$(MAKE) -f CMakeFiles\maxsort.dir\build.make CMakeFiles/maxsort.dir/clean
-.PHONY : CMakeFiles/maxsort.dir/clean
+.PHONY : maxsort1
 
 # clean rule for target.
-clean: CMakeFiles/maxsort.dir/clean
+CMakeFiles/maxsort1.dir/clean:
+	$(MAKE) -f CMakeFiles\maxsort1.dir\build.make CMakeFiles/maxsort1.dir/clean
+.PHONY : CMakeFiles/maxsort1.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/maxsort1.dir/clean
 
 .PHONY : clean
 

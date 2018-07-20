@@ -52,5 +52,5 @@ set(CMAKE_MAKEFILE_PRODUCTS
 set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/aep.dir/DependInfo.cmake"
   "CMakeFiles/Palindrome.dir/DependInfo.cmake"
-  "CMakeFiles/maxsort.dir/DependInfo.cmake"
+  "CMakeFiles/maxsort1.dir/DependInfo.cmake"
   )
