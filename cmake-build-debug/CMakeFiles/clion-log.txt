@@ -1,4 +1,4 @@
-E:\JetBrains\CLion\bin\cmake\bin\cmake.exe -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" E:\cprc
+/usr/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/usr/bin/make -DCMAKE_C_COMPILER=/usr/bin/cc -DCMAKE_CXX_COMPILER=/usr/bin/c++ -G "CodeBlocks - Unix Makefiles" /mnt/c/Users/AbuYoung/Desktop/CLanguage101
 -- Configuring done
 -- Generating done
--- Build files have been written to: E:/cprc/cmake-build-debug
+-- Build files have been written to: /mnt/c/Users/AbuYoung/Desktop/CLanguage101/cmake-build-debug

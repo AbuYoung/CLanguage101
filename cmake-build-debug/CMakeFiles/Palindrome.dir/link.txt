@@ -1,3 +1,0 @@
-E:\JetBrains\CLion\bin\cmake\bin\cmake.exe -E remove -f CMakeFiles\Palindrome.dir/objects.a
-C:\LLVM\bin\ar.exe cr CMakeFiles\Palindrome.dir/objects.a @CMakeFiles\Palindrome.dir\objects1.rsp
-C:\LLVM\bin\gcc.exe -g   -Wl,--whole-archive CMakeFiles\Palindrome.dir/objects.a -Wl,--no-whole-archive  -o Palindrome.exe -Wl,--out-implib,libPalindrome.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\Palindrome.dir\linklibs.rsp

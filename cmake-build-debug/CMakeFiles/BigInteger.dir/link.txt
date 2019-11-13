@@ -1,3 +1,0 @@
-E:\JetBrains\CLion\bin\cmake\bin\cmake.exe -E remove -f CMakeFiles\BigInteger.dir/objects.a
-C:\LLVM\bin\ar.exe cr CMakeFiles\BigInteger.dir/objects.a @CMakeFiles\BigInteger.dir\objects1.rsp
-C:\LLVM\bin\gcc.exe -g   -Wl,--whole-archive CMakeFiles\BigInteger.dir/objects.a -Wl,--no-whole-archive  -o BigInteger.exe -Wl,--out-implib,libBigInteger.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\BigInteger.dir\linklibs.rsp

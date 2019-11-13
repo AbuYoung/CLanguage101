@@ -8,172 +8,184 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="E:/cprc/cmake-build-debug"/>
+				<Option working_dir="/mnt/c/Users/AbuYoung/Desktop/CLanguage101/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/LLVM/bin/mingw32-make.exe -f &quot;E:/cprc/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="C:/LLVM/bin/mingw32-make.exe -f &quot;E:/cprc/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/LLVM/bin/mingw32-make.exe -f &quot;E:/cprc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/LLVM/bin/mingw32-make.exe -f &quot;E:/cprc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="aep">
-				<Option output="E:/cprc/cmake-build-debug/aep.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="E:/cprc/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="C:/LLVM/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
-					<Add directory="C:/LLVM/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
-					<Add directory="C:/LLVM/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
-					<Add directory="C:/LLVM/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
-					<Add directory="C:/LLVM/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
-					<Add directory="C:/LLVM/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="C:/LLVM/bin/mingw32-make.exe -f &quot;E:/cprc/cmake-build-debug/Makefile&quot;  VERBOSE=1 aep"/>
-					<CompileFile command="C:/LLVM/bin/mingw32-make.exe -f &quot;E:/cprc/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/LLVM/bin/mingw32-make.exe -f &quot;E:/cprc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/LLVM/bin/mingw32-make.exe -f &quot;E:/cprc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="aep/fast">
-				<Option output="E:/cprc/cmake-build-debug/aep.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="E:/cprc/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="C:/LLVM/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
-					<Add directory="C:/LLVM/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
-					<Add directory="C:/LLVM/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
-					<Add directory="C:/LLVM/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
-					<Add directory="C:/LLVM/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
-					<Add directory="C:/LLVM/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="C:/LLVM/bin/mingw32-make.exe -f &quot;E:/cprc/cmake-build-debug/Makefile&quot;  VERBOSE=1 aep/fast"/>
-					<CompileFile command="C:/LLVM/bin/mingw32-make.exe -f &quot;E:/cprc/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/LLVM/bin/mingw32-make.exe -f &quot;E:/cprc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/LLVM/bin/mingw32-make.exe -f &quot;E:/cprc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="Palindrome">
-				<Option output="E:/cprc/cmake-build-debug/Palindrome.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="E:/cprc/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="C:/LLVM/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
-					<Add directory="C:/LLVM/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
-					<Add directory="C:/LLVM/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
-					<Add directory="C:/LLVM/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
-					<Add directory="C:/LLVM/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
-					<Add directory="C:/LLVM/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="C:/LLVM/bin/mingw32-make.exe -f &quot;E:/cprc/cmake-build-debug/Makefile&quot;  VERBOSE=1 Palindrome"/>
-					<CompileFile command="C:/LLVM/bin/mingw32-make.exe -f &quot;E:/cprc/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/LLVM/bin/mingw32-make.exe -f &quot;E:/cprc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/LLVM/bin/mingw32-make.exe -f &quot;E:/cprc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="Palindrome/fast">
-				<Option output="E:/cprc/cmake-build-debug/Palindrome.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="E:/cprc/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="C:/LLVM/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
-					<Add directory="C:/LLVM/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
-					<Add directory="C:/LLVM/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
-					<Add directory="C:/LLVM/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
-					<Add directory="C:/LLVM/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
-					<Add directory="C:/LLVM/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="C:/LLVM/bin/mingw32-make.exe -f &quot;E:/cprc/cmake-build-debug/Makefile&quot;  VERBOSE=1 Palindrome/fast"/>
-					<CompileFile command="C:/LLVM/bin/mingw32-make.exe -f &quot;E:/cprc/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/LLVM/bin/mingw32-make.exe -f &quot;E:/cprc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/LLVM/bin/mingw32-make.exe -f &quot;E:/cprc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="maxsort1">
-				<Option output="E:/cprc/cmake-build-debug/maxsort1.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="E:/cprc/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="C:/LLVM/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
-					<Add directory="C:/LLVM/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
-					<Add directory="C:/LLVM/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
-					<Add directory="C:/LLVM/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
-					<Add directory="C:/LLVM/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
-					<Add directory="C:/LLVM/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="C:/LLVM/bin/mingw32-make.exe -f &quot;E:/cprc/cmake-build-debug/Makefile&quot;  VERBOSE=1 maxsort1"/>
-					<CompileFile command="C:/LLVM/bin/mingw32-make.exe -f &quot;E:/cprc/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/LLVM/bin/mingw32-make.exe -f &quot;E:/cprc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/LLVM/bin/mingw32-make.exe -f &quot;E:/cprc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="maxsort1/fast">
-				<Option output="E:/cprc/cmake-build-debug/maxsort1.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="E:/cprc/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="C:/LLVM/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
-					<Add directory="C:/LLVM/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
-					<Add directory="C:/LLVM/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
-					<Add directory="C:/LLVM/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
-					<Add directory="C:/LLVM/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
-					<Add directory="C:/LLVM/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="C:/LLVM/bin/mingw32-make.exe -f &quot;E:/cprc/cmake-build-debug/Makefile&quot;  VERBOSE=1 maxsort1/fast"/>
-					<CompileFile command="C:/LLVM/bin/mingw32-make.exe -f &quot;E:/cprc/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/LLVM/bin/mingw32-make.exe -f &quot;E:/cprc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/LLVM/bin/mingw32-make.exe -f &quot;E:/cprc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/AbuYoung/Desktop/CLanguage101/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/AbuYoung/Desktop/CLanguage101/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/AbuYoung/Desktop/CLanguage101/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/AbuYoung/Desktop/CLanguage101/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="E:/cprc/cmake-build-debug"/>
+				<Option working_dir="/mnt/c/Users/AbuYoung/Desktop/CLanguage101/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/LLVM/bin/mingw32-make.exe -f &quot;E:/cprc/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="C:/LLVM/bin/mingw32-make.exe -f &quot;E:/cprc/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/LLVM/bin/mingw32-make.exe -f &quot;E:/cprc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/LLVM/bin/mingw32-make.exe -f &quot;E:/cprc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/AbuYoung/Desktop/CLanguage101/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/AbuYoung/Desktop/CLanguage101/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/AbuYoung/Desktop/CLanguage101/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/AbuYoung/Desktop/CLanguage101/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="E:/cprc/cmake-build-debug"/>
+				<Option working_dir="/mnt/c/Users/AbuYoung/Desktop/CLanguage101/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/LLVM/bin/mingw32-make.exe -f &quot;E:/cprc/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="C:/LLVM/bin/mingw32-make.exe -f &quot;E:/cprc/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/LLVM/bin/mingw32-make.exe -f &quot;E:/cprc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/LLVM/bin/mingw32-make.exe -f &quot;E:/cprc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/AbuYoung/Desktop/CLanguage101/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/AbuYoung/Desktop/CLanguage101/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/AbuYoung/Desktop/CLanguage101/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/AbuYoung/Desktop/CLanguage101/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="maxsort1">
+				<Option output="/mnt/c/Users/AbuYoung/Desktop/CLanguage101/cmake-build-debug/maxsort1" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/c/Users/AbuYoung/Desktop/CLanguage101/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/AbuYoung/Desktop/CLanguage101/cmake-build-debug/Makefile&quot;  VERBOSE=1 maxsort1"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/AbuYoung/Desktop/CLanguage101/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/AbuYoung/Desktop/CLanguage101/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/AbuYoung/Desktop/CLanguage101/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="maxsort1/fast">
+				<Option output="/mnt/c/Users/AbuYoung/Desktop/CLanguage101/cmake-build-debug/maxsort1" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/c/Users/AbuYoung/Desktop/CLanguage101/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/AbuYoung/Desktop/CLanguage101/cmake-build-debug/Makefile&quot;  VERBOSE=1 maxsort1/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/AbuYoung/Desktop/CLanguage101/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/AbuYoung/Desktop/CLanguage101/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/AbuYoung/Desktop/CLanguage101/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="aep">
+				<Option output="/mnt/c/Users/AbuYoung/Desktop/CLanguage101/cmake-build-debug/aep" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/c/Users/AbuYoung/Desktop/CLanguage101/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/AbuYoung/Desktop/CLanguage101/cmake-build-debug/Makefile&quot;  VERBOSE=1 aep"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/AbuYoung/Desktop/CLanguage101/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/AbuYoung/Desktop/CLanguage101/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/AbuYoung/Desktop/CLanguage101/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="aep/fast">
+				<Option output="/mnt/c/Users/AbuYoung/Desktop/CLanguage101/cmake-build-debug/aep" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/c/Users/AbuYoung/Desktop/CLanguage101/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/AbuYoung/Desktop/CLanguage101/cmake-build-debug/Makefile&quot;  VERBOSE=1 aep/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/AbuYoung/Desktop/CLanguage101/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/AbuYoung/Desktop/CLanguage101/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/AbuYoung/Desktop/CLanguage101/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Palindrome">
+				<Option output="/mnt/c/Users/AbuYoung/Desktop/CLanguage101/cmake-build-debug/Palindrome" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/c/Users/AbuYoung/Desktop/CLanguage101/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/AbuYoung/Desktop/CLanguage101/cmake-build-debug/Makefile&quot;  VERBOSE=1 Palindrome"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/AbuYoung/Desktop/CLanguage101/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/AbuYoung/Desktop/CLanguage101/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/AbuYoung/Desktop/CLanguage101/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Palindrome/fast">
+				<Option output="/mnt/c/Users/AbuYoung/Desktop/CLanguage101/cmake-build-debug/Palindrome" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/c/Users/AbuYoung/Desktop/CLanguage101/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/AbuYoung/Desktop/CLanguage101/cmake-build-debug/Makefile&quot;  VERBOSE=1 Palindrome/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/AbuYoung/Desktop/CLanguage101/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/AbuYoung/Desktop/CLanguage101/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/AbuYoung/Desktop/CLanguage101/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="E:/cprc/Palindrome.c">
+		<Unit filename="/mnt/c/Users/AbuYoung/Desktop/CLanguage101/Palindrome.c">
 			<Option target="Palindrome"/>
 		</Unit>
-		<Unit filename="E:/cprc/aep.c">
+		<Unit filename="/mnt/c/Users/AbuYoung/Desktop/CLanguage101/aep.c">
 			<Option target="aep"/>
 		</Unit>
-		<Unit filename="E:/cprc/maxsort1.c">
+		<Unit filename="/mnt/c/Users/AbuYoung/Desktop/CLanguage101/maxsort1.c">
 			<Option target="maxsort1"/>
 		</Unit>
-		<Unit filename="E:/cprc/CMakeLists.txt">
+		<Unit filename="/mnt/c/Users/AbuYoung/Desktop/CLanguage101/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>
