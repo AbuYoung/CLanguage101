@@ -1,0 +1,5 @@
+/mnt/c/Users/AbuYoung/Desktop/CLanguage101/cmake-build-release/CMakeFiles/edit_cache.dir
+/mnt/c/Users/AbuYoung/Desktop/CLanguage101/cmake-build-release/CMakeFiles/rebuild_cache.dir
+/mnt/c/Users/AbuYoung/Desktop/CLanguage101/cmake-build-release/CMakeFiles/maxsort1.dir
+/mnt/c/Users/AbuYoung/Desktop/CLanguage101/cmake-build-release/CMakeFiles/aep.dir
+/mnt/c/Users/AbuYoung/Desktop/CLanguage101/cmake-build-release/CMakeFiles/Palindrome.dir
