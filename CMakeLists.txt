@@ -1,13 +1,16 @@
 cmake_minimum_required(VERSION 3.8)
-project(cprc)
+project(CLanguage101)
 
 set(CMAKE_CXX_STANDARD 17)
 
-set(SOURCE_FILES aep.c)
-add_executable(aep ${SOURCE_FILES})
+set(CMAKE_C_SOURCE_FILE_EXTENSIONS aep.c)
+add_executable(aep ${CMAKE_C_SOURCE_FILE_EXTENSIONS})
 
-set(SOURCE_FILES Palindrome.c)
-add_executable(Palindrome ${SOURCE_FILES})
+set(CMAKE_C_SOURCE_FILE_EXTENSIONS Palindrome.c)
+add_executable(Palindrome ${CMAKE_C_SOURCE_FILE_EXTENSIONS})
 
-set(SOURCE_FILES maxsort1.c)
-add_executable(maxsort1 ${SOURCE_FILES})
+set(CMAKE_C_SOURCE_FILE_EXTENSIONS maxsort1.c)
+add_executable(maxsort1 ${CMAKE_C_SOURCE_FILE_EXTENSIONS})
+
+set(CMAKE_C_SOURCE_FILE_EXTENSIONS  hw.c)
+add_executable(hw ${CMAKE_C_SOURCE_FILE_EXTENSIONS})
