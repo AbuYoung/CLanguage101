@@ -5,17 +5,17 @@
 #include <stdio.h>
 
 int main() {
-	//get the number
-	int i = scanf("%d",&i);
-	printf('%d',i);
+	// get the number
+	int i = scanf("%d", &i);
+	printf('%d', i);
 
-	//tran to binary
+	// tran to binary
 	int n = 0, b[1000000];
 
-	for(; i; i>>=1) {
-		b[n++] = i&1;
+	for (; i; i >>= 1) {
+		b[n++] = i & 1;
 	}
-	for(; n; ) {
+	for (; n;) {
 		printf("%d", b[--n]);
 		printf("\n");
 	}

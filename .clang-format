@@ -1,0 +1,10 @@
+# 代码风格
+BasedOnStyle: LLVM
+# 缩进case标签
+IndentCaseLabels:    false
+# 缩进宽度
+IndentWidth:  4
+# tab宽度
+TabWidth:   4
+# 使用tab字符: Never, ForIndentation, ForContinuationAndIndentation, Always
+UseTab:    Always
