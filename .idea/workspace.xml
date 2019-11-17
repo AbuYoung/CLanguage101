@@ -2,20 +2,22 @@
 <project version="4">
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
     <generated>
+      <config projectName="cprc" targetName="maxsort1" />
       <config projectName="cprc" targetName="aep" />
       <config projectName="cprc" targetName="Palindrome" />
-      <config projectName="cprc" targetName="maxsort1" />
     </generated>
   </component>
   <component name="CMakeSettings" AUTO_RELOAD="true">
     <configurations>
-      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
       <configuration PROFILE_NAME="Release" CONFIG_NAME="Release" />
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
     </configurations>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="982cc757-f80e-4437-96f8-3663d70e1656" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/clion-log.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,14 +51,20 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.grazie" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="CMakeSettings" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\cprc" />
     </key>
   </component>
-  <component name="RunManager" selected="CMake Application.aep">
+  <component name="RunManager" selected="CMake Application.maxsort1">
     <configuration name="Build All" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="cprc" RUN_TARGET_NAME="maxsort1" EXPLICIT_BUILD_TARGET_NAME="all">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -100,6 +108,11 @@
         </serviceView>
       </list>
     </option>
+  </component>
+  <component name="SshConsoleOptionsProvider">
+    <option name="myEncoding" value="UTF-8" />
+    <option name="myConnectionType" value="NONE" />
+    <option name="myConnectionId" value="" />
   </component>
   <component name="SvnConfiguration">
     <configuration>C:\Users\abuyo\AppData\Roaming\Subversion</configuration>
@@ -150,6 +163,11 @@
       <workItem from="1532016237341" duration="3786000" />
       <workItem from="1573672961719" duration="985000" />
       <workItem from="1573733793317" duration="287000" />
+      <workItem from="1573974728288" duration="130000" />
+      <workItem from="1573974940919" duration="43000" />
+      <workItem from="1573975081132" duration="3424000" />
+      <workItem from="1573991247971" duration="1621000" />
+      <workItem from="1573998576315" duration="443000" />
     </task>
     <task id="LOCAL-00001" summary="nothing works">
       <created>1525954706227</created>
@@ -228,14 +246,58 @@
       <screen x="0" y="0" width="1280" height="720" />
     </state>
     <state x="96" y="15" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.720@0.0.1280.720" timestamp="1573673831347" />
+    <state x="321" y="86" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1573974821141">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state x="321" y="86" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1280.720@0.0.1280.720" timestamp="1573974821141" />
     <state x="115" y="43" width="1019" height="618" key="CommitChangelistDialog2" timestamp="1573673491235">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
     <state x="115" y="43" width="1019" height="618" key="CommitChangelistDialog2/0.0.1280.720@0.0.1280.720" timestamp="1573673491235" />
-    <state x="146" y="13" width="996" height="707" key="SettingsEditor" timestamp="1573734049734">
+    <state x="408" y="156" key="FileChooserDialogImpl" timestamp="1573975288245">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state x="146" y="13" width="996" height="707" key="SettingsEditor/0.0.1280.720@0.0.1280.720" timestamp="1573734049734" />
+    <state x="408" y="156" key="FileChooserDialogImpl/0.0.1280.720@0.0.1280.720" timestamp="1573975288245" />
+    <state width="1235" height="233" key="GridCell.Tab.0.bottom" timestamp="1573974861583">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state width="1235" height="233" key="GridCell.Tab.0.bottom/0.0.1280.720@0.0.1280.720" timestamp="1573974861583" />
+    <state width="1235" height="233" key="GridCell.Tab.0.center" timestamp="1573974861582">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state width="1235" height="233" key="GridCell.Tab.0.center/0.0.1280.720@0.0.1280.720" timestamp="1573974861582" />
+    <state width="1235" height="233" key="GridCell.Tab.0.left" timestamp="1573974861582">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state width="1235" height="233" key="GridCell.Tab.0.left/0.0.1280.720@0.0.1280.720" timestamp="1573974861582" />
+    <state width="1235" height="233" key="GridCell.Tab.0.right" timestamp="1573974861582">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state width="1235" height="233" key="GridCell.Tab.0.right/0.0.1280.720@0.0.1280.720" timestamp="1573974861582" />
+    <state width="1235" height="233" key="GridCell.Tab.1.bottom" timestamp="1573974861583">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state width="1235" height="233" key="GridCell.Tab.1.bottom/0.0.1280.720@0.0.1280.720" timestamp="1573974861583" />
+    <state width="1235" height="233" key="GridCell.Tab.1.center" timestamp="1573974861583">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state width="1235" height="233" key="GridCell.Tab.1.center/0.0.1280.720@0.0.1280.720" timestamp="1573974861583" />
+    <state width="1235" height="233" key="GridCell.Tab.1.left" timestamp="1573974861583">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state width="1235" height="233" key="GridCell.Tab.1.left/0.0.1280.720@0.0.1280.720" timestamp="1573974861583" />
+    <state width="1235" height="233" key="GridCell.Tab.1.right" timestamp="1573974861583">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state width="1235" height="233" key="GridCell.Tab.1.right/0.0.1280.720@0.0.1280.720" timestamp="1573974861583" />
+    <state x="221" y="103" key="IDE.errors.dialog" timestamp="1573974806780">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state x="221" y="103" key="IDE.errors.dialog/0.0.1280.720@0.0.1280.720" timestamp="1573974806780" />
+    <state x="51" y="13" width="1147" height="707" key="SettingsEditor" timestamp="1573999020028">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state x="51" y="13" width="1147" height="707" key="SettingsEditor/0.0.1280.720@0.0.1280.720" timestamp="1573999020028" />
     <state x="233" y="93" key="Vcs.Push.Dialog.v2" timestamp="1573673500986">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
