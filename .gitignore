@@ -7,3 +7,8 @@ out
 cmake-build-debug/
 cmake-build-release/
 *.exe
+
+DataStruct/Task_1/.idea
+DataStruct/Task_1/cmake-build-debug
+
+DataStruct/Task_2/hf/x64
