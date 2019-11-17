@@ -1,1 +1,0 @@
-/usr/bin/cc -O3 -DNDEBUG   CMakeFiles/maxsort1.dir/maxsort1.c.o  -o maxsort1 

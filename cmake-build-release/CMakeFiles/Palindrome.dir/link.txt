@@ -1,1 +1,0 @@
-/usr/bin/cc -O3 -DNDEBUG   CMakeFiles/Palindrome.dir/Palindrome.c.o  -o Palindrome 
